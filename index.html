@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dark clock</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+   
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="clock">
+
+		<div class="hour">
+			<div class="hr" id="hr" data-hour-hand></div>
+		</div>
+
+		<div class="min">
+			<div class="mn" id="mn" data-minute-hand></div>
+		</div>
+
+		<div class="sec">
+			<div class="sc" id="sc" data-second-hand></div>
+		</div>
+
+		<script type="text/javascript" src="clock.js"></script>
+		
+	</div>
+
+	<div class="change_theme">
+		<input type="checkbox" name="checkbox" class="checkbox" id="checkbox">
+		<label for="checkbox" class="label">
+			<i class="fas fa-moon"></i>
+			<i class="fas fa-sun"></i>
+			<div class="ball"></div>
+		</label>
+		
+		<script type="text/javascript" src="lightTheme.js"></script>
+	</div>
+
+	<div class="social_link">
+		<div class="button_link">
+			<a href="https://github.com/zocainViken/jsClock" target="_blank">
+				<img class="git" src="git_large.png" style="width: 130px;">
+			</a>
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
